@@ -8,10 +8,81 @@ header, #wrapper, footer{
     margin: 0 auto;
 }
 
+.sin_padding{
+    padding: 0px;
+    margin: 0px;
+}
 
+.aside{
+   
+    background: red;
+    width: 20%;
+    padding-left: 6px;
+}
 header{
-    height: 300px;
+    height: auto;
     background: #ccc;
+    padding: 0px;
+}
+
+.section{
+    width: 80%;
+    background: blue;
+  
+}
+
+laber{
+    font-size: 50px;
+}
+
+h1
+{
+   text-transform:uppercase;
+    font: bold 20px/45px Helvetica, Verdana, sans-serif;
+    text-align: center;
+}
+label 
+{
+    display: block;
+}
+h2 
+{
+    font: bold 14px Helvetica, Verdana, sans-serif;
+    background-color: #003366;
+    text-align: center;
+    padding: 5px;
+    border-radius: 10px;
+    width: 300px;
+    margin: 0px auto;
+}
+
+footer{
+    height: 90px;
+    width: 92%;
+}
+div form 
+{
+    background-color: #4d82e6;
+    width: 80%;
+    margin: 0px auto;
+    padding: 10px;
+    border-radius: 15px;
+}
+input{
+    border-radius: 5%;
+}
+
+.pruebas{
+    display: flex;
+    flex-direction: row;
+    width: 92%;
+    height: 390px;
+    padding-left: 61px;
+}
+
+.linea{
+    display: flex;
+    flex-direction: row;
 }
 
 nav{
@@ -62,6 +133,9 @@ aside{
     float: left;
 }
 
+.title{
+    text-align: center;
+}
 
 .centrado{
     margin-left: 5%;
